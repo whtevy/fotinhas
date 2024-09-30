@@ -7,8 +7,6 @@ body#index {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     height: 30%;
-}
-body#index {
     margin: 0%;
     width: 100%;
     height: 100vh;
@@ -16,7 +14,6 @@ body#index {
     background-size: 300% 300%;
     animation: color 45s ease infinite;
 }
-
 @keyframes color {
     0%{
         background-position: 0% 50%;
@@ -40,7 +37,7 @@ body#index {
 
 .botoes a{
     height: 150%;
-    background-color: rgb(149, 74, 176);
+    background-color: rgb(255, 255, 255);
     font-family: "Bebas Neue", sans-serif;
     color:rgb(43, 220, 226);
     text-decoration:double;
@@ -68,6 +65,17 @@ img:hover#index {
     height: 100vh;
 
 }
-body {
-    margin: 0px;
+img {
+    align-items: center;
+    height: 30vh;
 }
+body {
+    background-image: linear-gradient(45deg, rgb(151, 151, 151), rgb(123, 172, 133), rgb(151, 126, 190));
+    background-size: 300% 300%;
+    animation: color 45s ease infinite;
+    margin: 0px;
+    align-items: center;
+    text-align: left;
+}
+
+
